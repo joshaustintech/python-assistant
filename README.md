@@ -16,3 +16,6 @@ These people have inspired the system instructions that are in the `Modelfile`
 ollama create python-assistant -f ./Modelfile
 ollama run python-assistant
 ```
+
+## Screenshot
+![Screenshot](./Screenshot%202023-11-04%20at%2012.52.02 AM.png)
