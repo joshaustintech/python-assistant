@@ -4,7 +4,7 @@ Python development AI assistant built on CodeLlama-Python
 ## Credits
 These people have inspired the system instructions that are in the `Modelfile`
 - [Sammi Turner](https://github.com/sammi-turner)
-- [JTij](https://www.twitch.tv/jtij)
+- [jordantgh](https://github.com/jordantgh)
 
 ## System Requirements
 - Tested for macOS only
