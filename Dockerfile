@@ -16,6 +16,9 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
+# Copy the source code into the container.
+COPY . .
+
 # Create a non-privileged user that the app will run under.
 # See https://docs.docker.com/go/dockerfile-user-best-practices/
 ARG UID=10001
@@ -38,9 +41,6 @@ RUN --mount=type=cache,target=/root/.cache/pip \
 
 # Switch to the non-privileged user to run the application.
 USER appuser
-
-# Copy the source code into the container.
-COPY . .
 
 # Expose the port that the application listens on.
 EXPOSE 7860
