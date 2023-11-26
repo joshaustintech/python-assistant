@@ -1,0 +1,13 @@
+version: '3'
+services:
+  ollama:
+    build: ./docker/ollama
+    ports:
+      - "11434:11434"
+  gradio:
+    build: ./docker/gradio
+    ports:
+      - "7860:7860"
+      - "11434:11434"
+    depends_on:
+      - ollama

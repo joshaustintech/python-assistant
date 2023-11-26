@@ -1,21 +1,15 @@
 # python-assistant
-Python development AI assistant built on CodeLlama-Python
+Python development AI assistant built on CodeLlama
+
+## Screenshot
+![screenshot](Screenshot.png)
+
+## Installation
+*In Progress*
 
 ## Credits
 These people have inspired the system instructions that are in the `Modelfile`
 - [Sammi Turner](https://github.com/sammi-turner)
 - [jordantgh](https://github.com/jordantgh)
 
-## System Requirements
-- Tested for macOS only
-- 16GB minimum RAM
-- Latest version of [Ollama](https://github.com/jmorganca/ollama) installed
-
-## Usage
-```
-ollama create python-assistant -f ./Modelfile
-ollama run python-assistant
-```
-
-## Screenshot
-![Screenshot](./Screenshot%202023-11-04%20at%2012.52.02 AM.png)
+Special thanks goes to [Matthew Berman](https://github.com/mberman84) for [this video](https://www.youtube.com/watch?v=rIRkxZSn-A8) on wrapping the Ollama API in a [Gradio](https://www.gradio.app/) UI.
